@@ -8,8 +8,8 @@ This digital library application is built with Astro and showcases a variety of 
 
 ## Screenshots
 
-(https://github.com/nicocarobene/bibliotecaDigital/blob/main/src/assets/home.png)
-(https://github.com/nicocarobene/bibliotecaDigital/blob/main/src/assets/book.png)
+https://github.com/nicocarobene/bibliotecaDigital/blob/main/src/assets/home.png
+https://github.com/nicocarobene/bibliotecaDigital/blob/main/src/assets/book.png
 
 ## Features
 
