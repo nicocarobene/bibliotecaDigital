@@ -1,0 +1,15 @@
+---
+import {getAllBook} from '../service/getAllBook'
+import Book from './Book.astro';
+const mock= await getAllBook();
+---
+
+<ul class="grid grid-cols-2 md:grid-cols-3 gap-3 w-full p-4">
+    {
+        mock.map(({id, title, img, author, opinion }) => (
+            <li>
+                <Book id={id} title={title} img={img} author={author} opinion={opinion}/>    
+            </li>
+        ))
+    }
+</ul>
