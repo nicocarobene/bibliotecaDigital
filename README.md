@@ -1,20 +1,38 @@
-# Astro Starter Kit: Basics
+# Digital Library
 
-```
-npm create astro@latest -- --template basics
-```
+An application for exploring and discovering online books.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Description
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This digital library application is built with Astro and showcases a variety of programming books recommended by @midudev. You can browse through a list of books and access more information about each one.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Screenshots
 
-## 🚀 Project Structure
+*Insert screenshots of your application here.*
 
-Inside of your Astro project, you'll see the following folders and files:
+## Features
+
+- Explore a collection of online books.
+- View details of each book, such as title, author, image, and opinion.
+
+## Installation and Usage
+
+1. Clone this repository to your local machine.
+2. Install dependencies using the command: `npm install`.
+3. Run the application locally with the command: `npm run start`.
+4. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+## Technologies Used
+
+- Astro
+- HTML
+- CSS
+- JavaScript
+
+## Project Structure
+
+Inside your Astro project, you'll find the following folders and files:
+
 
 ```
 /
@@ -22,11 +40,17 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   └── Book.astro
+|   |   └── ListOfBook.astro
+|   |   └── Title.astro
 │   ├── layouts/
 │   │   └── Layout.astro
+│   ├── mock/
+│   │   └── mock.json
 │   └── pages/
 │       └── index.astro
+│       └── [id].astro
+│       └── 404.astro
 └── package.json
 ```
 
@@ -49,6 +73,15 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Contribution
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contributions are welcome! If you want to improve this application, follow these steps:
+
+1. Fork this repository.
+2. Create a branch for your feature: `git checkout -b my-feature`.
+3. Make your changes and commit: `git commit -m 'Add my feature'`.
+4. Push your branch: `git push origin my-feature`.
+5. Open a Pull Request on GitHub.
+
+---
+Made with ❤️ by Nicodev - https://github.com/nicocarobene
